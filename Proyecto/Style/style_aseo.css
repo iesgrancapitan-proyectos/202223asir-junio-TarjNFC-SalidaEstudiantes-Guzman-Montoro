@@ -1,0 +1,230 @@
+@media (min-width: 300px) {
+
+    .container-sm,
+    .container {
+        max-width: 540px;
+    }
+
+    #divnav {
+        width: 60%;
+        margin-left: 0%;
+
+    }
+
+
+}
+
+@media (min-width: 576px) {
+
+    .container-sm,
+    .container {
+        max-width: 540px;
+    }
+
+    #divnav {
+        width: 40%;
+        margin-left: 0%;
+
+    }
+
+
+}
+
+@media (min-width: 768px) {
+
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 720px;
+    }
+
+    #divnav {
+        width: 27.5%;
+        margin-left: 0%;
+
+    }
+
+
+}
+
+@media (min-width: 992px) {
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
+
+    #divnav {
+        width: 30%;
+        margin-left: auto;
+
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+
+    #divnav {
+        width: 25%;
+        margin-left: auto;
+
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
+
+    #divnav {
+        width: 20%;
+        margin-left: auto;
+
+    }
+
+}
+
+
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 10.3rem 0;
+   /* background-image: url(IMG/fondo.png);*/
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    margin: auto;
+    width: 100%;
+
+
+}
+
+#letra {
+    color: #0772B9;
+}
+
+#letra2 {
+    color: #3B3B3A;
+}
+
+#logonav {
+    width: 100%;
+    height: auto;
+    background-image: url(IMG/logonav.png);
+    z-index: -1;
+    position: relative;
+}
+
+
+#divcentral2 {
+    margin-bottom: 35%;
+}
+
+.container-btn-mode {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 0;
+}
+
+.btn-mode {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border: 2px solid black;
+    transition: background-color .5s;
+}
+
+.btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.btn-mode.sun {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+}
+
+.btn-mode.moon {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.active {
+    background-color: black;
+    color: #ffcd5c !important;
+}
+
+.dark-mode {
+    background-color: #0e0e0e;
+    transition: background-color .5s;
+}
+
+.dark-mode .card {
+    background-color: #1A1C1E;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode .btn-contact {
+    color: white;
+}
+
+.dark-mode .btn-mode {
+    background-color: #1A1C1E;
+    border: 1px solid white;
+    color: white;
+}
+
+.verde {
+    background-color: #ADFA59;
+}
+
+.rojo {
+    background-color: #F78181;
+}
